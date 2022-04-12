@@ -37,7 +37,6 @@
     "chart.js": "3.4.1",
     "chroma-js": "2.4.2",
     "dropzone": "5.9.2",
-    "eslint-config-react-app": "^6.0.0",
     "flatpickr": "4.6.9",
     "formik": "2.2.9",
     "html-react-parser": "1.4.8",
@@ -67,12 +66,6 @@
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -86,14 +79,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "8.8.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-plugin-react-hooks": "4.3.0",
     "prettier": "2.5.1"
   }
 }
