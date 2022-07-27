@@ -1,5 +1,0 @@
-export const SET_ALL_STORE = "SET_ALL_STORE";
-export const ADD_STORE = "ADD_STORE";
-export const UPDATE_STORE = "UPDATE_STORE";
-export const DELETE_STORE = "DELETE_STORE";
-export const SET_STORE_ACTION_MESSAGE = "SET_STORE_ACTION_MESSAGE";
