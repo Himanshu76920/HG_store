@@ -1,5 +1,0 @@
-export const SET_ALL_AGENT = "SET_ALL_AGENT";
-export const ADD_AGENT = "ADD_AGENT";
-export const UPDATE_AGENT = "UPDATE_AGENT";
-export const DELETE_AGENT = "DELETE_AGENT";
-export const SET_AGENT_ACTION_MESSAGE = "SET_AGENT_ACTION_MESSAGE";
