@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
+import Route from './pages/route'
 import './App.css';
-import Home from './page/Home';
-import LeftMenu from './page/LeftMenu';
 function App() {
   return (
     <div className="App">
-   <Home />
-   {/* <LeftMenu/> */}
+   <Route />
+
 
    
 

@@ -1,8 +1,6 @@
 import React from 'react';
-import Style from './SimpleButton.scss';
 
-
-function SimpleButon(props) {
+function SimpleButton(props) {
     return (
         <div>
             <button className={props.cname} style={{height:props.height+'px', background:props.color}}> {props.text}</button>
@@ -10,4 +8,4 @@ function SimpleButon(props) {
     );
 }
 
-export default SimpleButon;
+export default SimpleButton;
