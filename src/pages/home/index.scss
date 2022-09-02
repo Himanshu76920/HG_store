@@ -1,0 +1,56 @@
+.bannerRow {
+    margin-top: 50px;
+    display: flex;
+    .header {
+      text-shadow: 0px 4px 4px #05af35;
+      font-size: 70px;
+      font-weight: 700;
+    }
+    .subHeader {
+      font-size: 16px;
+      margin-top: 25px;
+      line-height: 32px;
+    }
+    .banner-left {
+      width: 400px;
+      margin-top: 50px;
+    }
+    .banner {
+      flex: 1;
+    }
+  }
+  .cardRow {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 20px;
+    position: relative;
+    top: -40px;
+  }
+  .cardRow {
+    .cardCol {
+      flex: 1;
+      background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.25) 0%,
+        rgba(255, 255, 255, 0.125) 68.53%
+      );
+      backdrop-filter: blur(32px);
+      border-radius: 16px;
+      padding: 30px;
+      -webkit-box-shadow: 1px -1px 5px 0px rgba(1, 120, 70, 1);
+      -moz-box-shadow: 1px -1px 5px 0px rgba(1, 120, 70, 1);
+      box-shadow: 1px -1px 5px 0px rgba(1, 120, 70, 1);
+    }
+    .card-number {
+      font-size: 22px;
+    }
+    .card-info {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 10px;
+    }
+  }
+  
