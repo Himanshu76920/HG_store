@@ -1,9 +1,9 @@
 import React from 'react';
-import * as Constant from './constant';
+import * as Constant from '../../utils/constant/HomeConstant';
 import Style from './index.scss'
 import banner from './../../images/home-right.png';
 import { LinkButton } from './../../component/button';
-// const CardInfo= ['Randhir', 'Gyan', 'Kapil', 'AmanPeet'];
+
 const CardInfo=[
     {cardHader:'1', cardInfo:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus'},
     {cardHader:'2', cardInfo:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus'},

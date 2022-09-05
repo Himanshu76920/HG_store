@@ -1,0 +1,21 @@
+header{
+   background: #000;
+   padding: 15px 30px;
+}
+.header-container{ display: flex;
+    .header-logo{
+        width: 250px;
+    }
+    .header-right{
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        .center-header{
+            color: #05AF35;
+        }
+        .right-header{
+            font-size: 14px;
+        }
+    }
+}
+
