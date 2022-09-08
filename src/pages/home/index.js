@@ -2,7 +2,7 @@ import React from 'react';
 import * as Constant from '../../utils/constant/HomeConstant';
 import Style from './index.scss'
 import banner from './../../images/home-right.png';
-import { LinkButton } from './../../component/button';
+import { LinkButton } from './../../component/button';  
 
 const CardInfo=[
     {cardHader:'1', cardInfo:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus'},

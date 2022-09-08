@@ -1,30 +1,9 @@
-
-.dadashboard{
+.dashboard {
     display: flex;
-    .dadashboard-item{
-        padding: 15px;
-        flex: 1;
+    .pro-sidebar {
+      width: 240px;
+      min-width: 240px;
     }
-    .small-Card-row{
-        display: flex;
-        justify-content: space-between;
-        grid-gap: 15px;
-        .small-card{
-            flex: 1;
-            color: var(--white);
-            padding: 10px;
-        }
-        .green-card
-        {
-            background:var(--green-color);
-        }
-        .blue-card
-        {
-            background:var(--lite-blue);
-        }
-        .orange-card
-        {
-            background:var(--dark-orange);
-        }
-    }
-}
+   
+  }
+  
