@@ -4,6 +4,7 @@ import Home from './../home';
 import About from './../about';
 import Login from './../login';
 import Register from './../register';
+import Dashboard from '../dashboard/Dashboard';
 
 export default function index() {
   return (
@@ -13,6 +14,7 @@ export default function index() {
       <Route path="/about" element={ <About/> } />
       <Route path="/login" element={ <Login/> } />
       <Route path="/register" element={ <Register/> } />
+      <Route path="/dashboard" element={ <Dashboard/> } />
   </Routes></div>
   )
 }
