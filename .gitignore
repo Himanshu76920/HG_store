@@ -25,6 +25,8 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 
+.env.*
+
 commit.sh
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
