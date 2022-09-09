@@ -5,7 +5,7 @@ import About from './../about';
 import Login from './../login';
 import Register from './../register';
 import Dashboard from '../dashboard/Dashboard';
-import Index from '../../component/dashboardpages/Index';
+import Graphpage from '../../component/dashboardpages/Graphpage';
 import Analytics from '../../component/dashboardpages/Analytics';
 import Products from '../../component/dashboardpages/Products';
 
@@ -21,7 +21,7 @@ export default function index() {
   </Routes>
   
   <Routes>
-    <Route exact path='/' element={<Index/>}/>
+    <Route  path='Graphpage' element={<Graphpage/>}/>
     <Route  path='analytics' element={<Analytics/>}/>
     <Route  path='products' element={<Products/>}/>
   </Routes>

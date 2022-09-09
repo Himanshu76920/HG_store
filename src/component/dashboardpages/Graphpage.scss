@@ -1,0 +1,131 @@
+.dashboard-item {
+    padding: 15px;
+    flex: 1;
+    .large-card-row{
+      display: flex;
+      grid-gap: 10px;
+      margin: 20px 0px;
+      .left-container{
+          width: 40%;
+      }
+      .right-container{
+          flex: 1;       }
+    }
+   
+    .dark-card{
+      background: var(--dark-black);
+      padding: 20px;
+      border-radius: 10px;
+      .week-day{
+        display: flex;
+        grid-gap: 10px;
+        padding:0px 30px;
+        div{
+          flex: 1;
+          font-size: 12px;
+    color: var(--lite-grey);
+        }
+      }
+      .vertical-progress{
+        display: flex;
+        grid-gap: 10px;
+        padding:0px 30px;
+        margin-top: 100px;
+        min-height: 91px;
+        div{
+          flex: 1;
+          position: relative;
+        }
+
+        progress{
+          transform: rotate(-90deg);
+          position: absolute;
+          left: -65px;
+
+        }
+      }
+      .card-header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        .card-name{
+          font-size: 16px;
+        }
+        .card-name-info{
+          font-size: 12px;
+          color: var(--lite-grey);
+        }
+      }
+    .progress-bar-row{
+      display: flex;
+      grid-gap: 10px;
+      font-size: 12px;
+      padding: 10px 0;
+      .itme-rate{ width: 100px; color: var(--lite-blue); }
+      .itme-name{ width: 100px;}
+      .itme-bar{ flex: 1; display: flex;}
+
+    }
+
+    }
+    
+    .small-Card-row {
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 15px;
+        .small-card {
+          flex: 1;
+          color: var(--white);
+          padding: 10px;
+          border-radius: 10px;
+          display: flex;
+          .small-card-icon {
+            background: var(--lite-white);
+            border-radius: 10px;
+            margin-right: 30px;
+            padding: 10px;
+            img {
+              width: 30px;
+            }
+          }
+          .small-info {
+            margin: 10px 0px 0px 0px;
+            font-size: 18px;
+            .small-cad-head {
+              font-size: 13px;
+              padding-bottom: 5px;
+            }
+          }
+        }
+    
+        .green-card {
+          background: var(--green-color);
+        }
+        .blue-card {
+          background: var(--lite-blue);
+        }
+        .orange-card {
+          background: var(--dark-orange);
+        }
+      }
+  }
+  .itme-bar progress {
+    border: none;
+    height: 8px;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .itme-bar progress::-webkit-progress-value {
+    background:var(--dark-orange);
+    border-radius: 3px;
+  }
+  
+  .itme-bar progress::-webkit-progress-bar {
+    background: #2584e961;
+    border-radius: 3px;
+  } 
+  .progress-bar-row:nth-child(odd) .itme-bar progress::-webkit-progress-value { background: var(--lite-blue); }
+  .weekpvalue:nth-child(odd) .itme-bar progress::-webkit-progress-value { background: var(--lite-blue); }
+
+

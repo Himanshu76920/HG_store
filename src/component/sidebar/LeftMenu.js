@@ -37,10 +37,12 @@ class LeftMenu extends Component {
                 )
               } 
                */}
-             <MenuItem> <Dashboard cname="icon-color" height="20" width="20" /> Dashboard</MenuItem>
+             <MenuItem> <Dashboard cname="icon-color" height="20" width="20" />
+             <LinkButton text="Dashboard" cname="left-menu-link" to="/dashboard" /> </MenuItem>
               <MenuItem> <Product cname="icon-color" height="20" width="20" /> 
               <LinkButton text="Products" cname="left-menu-link" to="/products" /> </MenuItem>           
-              <MenuItem> <Analytics cname="icon-color" height="20" width="20" /> Analytics</MenuItem>
+              <MenuItem> <Analytics cname="icon-color" height="20" width="20" />
+              <LinkButton text="Analytics" cname="left-menu-link" to="/analytics" /> </MenuItem>
 
               <MenuItem> <Money cname="icon-color" height="20" width="20" /> Schedules</MenuItem>
               <MenuItem> <Clock cname="icon-color" height="20" width="20" /> History</MenuItem>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../../component/header/Header';
 import LeftMenu from '../../component/sidebar/LeftMenu';
 import Style from './Dashboard.scss';
-import Index from '../../component/dashboardpages/Index';
+import Graphpage from '../../component/dashboardpages/Graphpage';
 
  
 class Dashboard extends Component {
@@ -15,7 +15,7 @@ class Dashboard extends Component {
                 <LeftMenu/>
                 </div>
                 <div className='dashboard-item'>
-                  <Index/>
+                  <Graphpage/>
                 </div>
                 </div>
             </div>
