@@ -1,6 +1,15 @@
 .pro-sidebar {
     .pro-sidebar-inner{
         background: #000;
+        
+        .pro-menu{
+            color: var(--lite-grey);
+            .left-menu-link{
+                color: var(--lite-grey);
+                font-size: 14px;
+                font-weight: normal;
+            }
+        }
     }
 .left-menu-img{
     text-align: center;
@@ -14,6 +23,30 @@
 .profile-info{
     font-size: 12px;
     padding-top: 5px;
-    color: var(--primary-color);
+    color: var(--lite-grey);
 } 
+.left-drop-down{ display: flex;
+    padding-left: 15px;
+    svg{
+        margin-top: 15px;
+    }
+    li{
+        flex: 1;
+        
+    }
+.pro-inner-item{
+    padding-left: 5px !important;
+}
+}
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item{
+    padding: 15px;
+    svg{
+        margin-right: 5px;
+    }
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content{
+    display: flex;
+    
 }

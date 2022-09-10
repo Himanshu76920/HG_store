@@ -4,5 +4,8 @@
     --dark-orange: #F83D00;
     --lite-blue: #2584E9;
     --dark-grey:#181818;
+    --dark-black:#000;
     --white:#fff;
+    --lite-white: rgba(255, 255, 255, 0.42);
+    --lite-grey: #7D7B7B;
 }

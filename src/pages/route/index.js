@@ -5,6 +5,9 @@ import About from './../about';
 import Login from './../login';
 import Register from './../register';
 import Dashboard from '../dashboard/Dashboard';
+import Graphpage from '../../component/dashboardpages/Graphpage';
+import Analytics from '../../component/dashboardpages/Analytics';
+import Products from '../../component/dashboardpages/Products';
 
 export default function index() {
   return (
@@ -15,6 +18,14 @@ export default function index() {
       <Route path="/login" element={ <Login/> } />
       <Route path="/register" element={ <Register/> } />
       <Route path="/dashboard" element={ <Dashboard/> } />
-  </Routes></div>
+  </Routes>
+  
+  <Routes>
+    <Route  path='Graphpage' element={<Graphpage/>}/>
+    <Route  path='analytics' element={<Analytics/>}/>
+    <Route  path='products' element={<Products/>}/>
+  </Routes>
+  
+  </div>
   )
 }
